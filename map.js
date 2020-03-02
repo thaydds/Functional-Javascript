@@ -140,6 +140,7 @@ const findColor = name =>
   );
 
 const result = findColor("blue")
+  .chain(sumColor)
   .map(x => x.slice(1))
   .fold(
     e => "color not found",
