@@ -13,5 +13,3 @@ const nextCharForNumberString = str =>
     .fold(c => c.toLowerCase());
 
 const result = nextCharForNumberString(" 64");
-
-console.log(result);
